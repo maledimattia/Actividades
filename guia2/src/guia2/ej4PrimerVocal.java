@@ -22,7 +22,7 @@ public class ej4PrimerVocal {
         System.out.println("Ingrese una frase: ");
         frase= leer.nextLine();
        letra = frase.substring(0, 1) ; 
-    
+     
       if (letra.equals("A" )  ){
           //no use equals porque deberia guardar la letra en alguna variable
           System.out.println("Correcto");
